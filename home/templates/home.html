@@ -1,0 +1,142 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hadhi | Portfolio</title>
+
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">Hadhi<span>.</span></a>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+            <p class="intro">Hello, I'm</p>
+
+            <h1>Abdul Hadhi</h1>
+
+            <h2>Python Full Stack Developer</h2>
+
+            <p class="description">
+                I build web applications using Python, Django
+                and modern web technologies. I'm passionate
+                about learning and developing useful solutions.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary-btn">
+                    View My Work
+                </a>
+
+                <a href="#contact" class="btn secondary-btn">
+                    Contact Me
+                </a>
+            </div>
+        </div>
+
+    </section>
+
+
+<!-- About Section -->
+<section id="about" class="about">
+
+    <div class="section-heading">
+        <p>Get To Know Me</p>
+        <h2>About Me</h2>
+    </div>
+
+    <div class="about-content">
+
+        <div class="about-text">
+            <h3>I'm Abdul Hadhi</h3>
+
+            <p>
+                I'm a Computer Engineering diploma graduate
+                and an aspiring Python Full Stack Developer.
+                I enjoy building websites and web applications
+                using Python and Django.
+            </p>
+
+            <p>
+                I'm continuously improving my programming
+                skills and exploring new technologies.
+                My goal is to become a skilled software developer
+                and build useful real-world applications.
+            </p>
+
+            <a href="#contact" class="btn primary-btn">
+                Contact Me
+            </a>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- Skills Section -->
+<section id="skills" class="skills">
+
+    <div class="section-heading">
+        <p>What I Know</p>
+        <h2>My Skills</h2>
+    </div>
+
+    <div class="skills-container">
+
+        <div class="skill-card">
+            <h3>Python</h3>
+            <p>Programming Language</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>Django</h3>
+            <p>Backend Framework</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>HTML</h3>
+            <p>Web Structure</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>CSS</h3>
+            <p>Web Styling</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>SQL</h3>
+            <p>Database Management</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>Git & GitHub</h3>
+            <p>Version Control</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+</body>
+</html>
